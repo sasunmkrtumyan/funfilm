@@ -1,5 +1,10 @@
-function App() {
-  return <div className="App"></div>;
-}
+import React from "react";
+import Jumbotron from "./components/jumbotron";
 
-export default App;
+export default function App() {
+  return (
+    <div className="App">
+      <Jumbotron />
+    </div>
+  );
+}
